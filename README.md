@@ -11,6 +11,6 @@ wget https://aws-codedeploy-$(curl -s 169.254.169.254/latest/meta-data/placement
 
 chmod +x ./install
 
-./install auto"
+./install auto
 
 service codedeploy-agent restart
